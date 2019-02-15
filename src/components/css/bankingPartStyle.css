@@ -1,0 +1,160 @@
+/* #bankingWrapper{ */ 
+/* } */
+*{
+    direction: rtl;
+}
+
+
+#bankingPart{
+    min-height: 360px;
+    border-radius: 9.5px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.09);
+    background-color: #fdfdfd;
+}
+
+#profilePart{
+    border-left: 1px solid #eceff1;
+}
+
+#profileImagePart{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: 1.25rem;  
+}
+
+#profileOptions{
+    text-align: right;
+}
+
+#profileOptions ul{
+    border: 0px;
+}
+
+#profileOptions ul a{
+    border: 0px;
+    font-family: IRANSansWeb;
+    font-size: .85rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: right;
+    color: #4b4b4b;
+    /* padding: 0px; */
+    /* margin-top: 5px; */
+}
+
+#profileOptions #exitFromProfile a{
+    font-family: IRANSansWeb;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: right;
+    color: #e38899;
+    padding-right: 1.3rem; 
+    margin-top: 60px;
+    padding-top: 20px !important;
+}
+
+#editFinancialInfoPart{
+    padding-right: 34px;
+    margin-top: 36px;
+}
+
+#editFinancialInfoPart #header h4{
+    font-family: IRANSansWeb;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6e6e6e;
+}
+
+#editFinancialInfoPart #shabaAndBankName label,
+#editFinancialInfoPart #cardNumber label{
+    float: right;
+    font-family: IRANSansWeb;
+    font-size: 0.80rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    text-align: right;
+    color: #b6b6b6;
+}
+
+#editFinancialInfoPart #shabaAndBankName ::placeholder{
+    font-family: IRANSansWeb;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b5b5b5;
+}
+
+#editFinancialInfoPart #cardNumber ::placeholder{
+    font-family: IRANSansWeb;
+    font-size: 0.85rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: center;
+    color: #b5b5b5;
+    direction: ltr !important;
+}
+
+#editFinancialInfoPart #saveChangesButton button{
+    width: 89.3px;
+    height: 29.5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.39);
+    background-color: #4157a3;
+    font-family: IRANSansWeb;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0.85rem;
+}
+
+#creditCardView #card{
+    width: 243px;
+    height: 126px;
+    background-image: url('../../assets/card.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2.5rem;
+    padding: 3rem;
+}
+
+@media only screen and (max-width: 760px){
+    #financialInfoPart{
+        flex-direction: column-reverse;
+    }
+    
+}
+
+@media only screen and (min-width: 760px) and (max-width: 990px){
+    #financialInfoPart{
+        justify-content: center !important;
+    }   
+}

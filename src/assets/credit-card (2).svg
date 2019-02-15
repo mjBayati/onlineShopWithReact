@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="19.999" viewBox="0 0 25 19.999">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b6b6b6;
+      }
+    </style>
+  </defs>
+  <g id="credit-card_2_" data-name="credit-card (2)" transform="translate(0 -54.821)">
+    <g id="Group_2233" data-name="Group 2233" transform="translate(0 54.821)">
+      <path id="Path_2337" data-name="Path 2337" class="cls-1" d="M24.388,55.433a2.006,2.006,0,0,0-1.471-.612H2.083a2.007,2.007,0,0,0-1.471.612A2.006,2.006,0,0,0,0,56.9V72.737a2.006,2.006,0,0,0,.612,1.471,2.007,2.007,0,0,0,1.471.612H22.917A2.09,2.09,0,0,0,25,72.737V56.9A2.006,2.006,0,0,0,24.388,55.433Zm-1.055,17.3a.422.422,0,0,1-.416.416H2.083a.422.422,0,0,1-.417-.417V64.821H23.333v7.917Zm0-12.917H1.667V56.9a.422.422,0,0,1,.417-.416H22.917a.422.422,0,0,1,.416.416v2.917Z" transform="translate(0 -54.821)"/>
+      <rect id="Rectangle_319" data-name="Rectangle 319" class="cls-1" width="3.921" height="1.96" transform="translate(5.481 14.759)"/>
+      <rect id="Rectangle_320" data-name="Rectangle 320" class="cls-1" width="5.881" height="1.96" transform="translate(7.966 14.759)"/>
+    </g>
+  </g>
+</svg>

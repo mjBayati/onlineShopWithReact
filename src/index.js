@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App';
+import './components/bootstrap/dist/css/bootstrap.min.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faIgloo } from '@fortawesome/free-solid-svg-icons'
 import * as serviceWorker from './serviceWorker';
+
+
+library.add(faIgloo);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
