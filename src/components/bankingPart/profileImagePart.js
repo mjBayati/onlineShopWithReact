@@ -35,18 +35,15 @@ class ProfileImagePart extends React.Component {
     // }
     render() {
         return (
-            <div className="col-12" id="profileImagePart">
-                <div className="row">
-                    <div className="small-12 medium-2 large-2 columns justify-content-center">
-                        <div className="circle">
-                            <img className="profile-pic"
-                            src={require('../../assets/5c1e7ecd.jpg')}
-                            alt="profileImg"/>
-                            <FontAwesomeIcon icon={aweSome.faUser}/>
-                            <div className="p-image">
-                                <FontAwesomeIcon icon={aweSome.faCamera} className="upload-button"/>
-                                <input className="file-upload" type="file" accept="image/*"/>
-                            </div>
+            <div className="col-12 w-100 p-0 m-0" id="profileImagePart">
+                <div className="circle p-0 mx-auto my-0 justify-content-center">
+                    <img className="profile-pic"
+                    src={require('../../assets/5c1e7ecd.jpg')}
+                    alt="profileImg"/>
+                    <div className="mx-aauto p-0 m-0 justify-content-center" id="imageUploudIcon">
+                        <div className="p-image">
+                            <FontAwesomeIcon icon={aweSome.faCamera} className="upload-button"/>
+                            <input className="file-upload" type="file" accept="image/*"/>
                         </div>
                     </div>
                 </div>

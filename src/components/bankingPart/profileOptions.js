@@ -20,7 +20,7 @@ class BankingPart extends Component {
                     اطلاعات مالی
                 </a>
             </ul>
-            <div  id="exitFromProfile">
+            <div className="p-1" id="exitFromProfile">
                 <a href="#">خروج از حساب کاربری</a>
             </div>    
         </div>
