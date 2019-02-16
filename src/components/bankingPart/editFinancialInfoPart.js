@@ -28,8 +28,14 @@ class EditFinancialInfoPart extends Component {
             shabaNumber: $('#shaba').val(),
             bankName: $('#bankName').children('option:selected').val()
         };
+        if(data.creditNumber.length !== 16){
+            alert('لطفاکد 16 رقمی وارد کنید');
+        }
+        else{
+            this.props.saveChanges(data);
+        }
         // console.log(data);
-        this.props.saveChanges(data);
+        
     }
 
     render() {
